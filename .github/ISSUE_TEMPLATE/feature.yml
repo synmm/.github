@@ -1,0 +1,32 @@
+name: Feature
+description: 新しい機能・やりたいこと
+type: Feature
+projects: ["synmm/1"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 概要
+      description: 何ができるようになるか
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景・目的
+      description: なぜ欲しいか
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了条件
+      description: 何ができたら終わりか
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: スコープ外
+      description: 今回はやらないこと
+  - type: textarea
+    id: open
+    attributes:
+      label: 未決
+      description: 決まっていないこと

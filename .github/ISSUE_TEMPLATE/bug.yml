@@ -1,0 +1,31 @@
+name: Bug
+description: 意図しない動き
+type: Bug
+projects: ["synmm/1"]
+body:
+  - type: textarea
+    id: symptom
+    attributes:
+      label: 現象
+      description: 何が起きているか
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 再現手順
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待する動き
+  - type: textarea
+    id: env
+    attributes:
+      label: 環境・ログ
+      description: 版・機器・ログの抜粋（トークンやパスワードは伏せる）
+      render: text
+  - type: textarea
+    id: cause
+    attributes:
+      label: 原因
+      description: 分かっていれば

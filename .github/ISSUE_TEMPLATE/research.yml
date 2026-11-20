@@ -1,0 +1,30 @@
+name: Research
+description: 問いに答える・選択肢から選ぶ
+type: Research
+projects: ["synmm/1"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 問い
+      description: 何を明らかにするか・何を決めるか
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景
+  - type: textarea
+    id: scope
+    attributes:
+      label: 調べる範囲・選択肢
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了条件
+      description: 何が決まれば終わりか
+  - type: textarea
+    id: conclusion
+    attributes:
+      label: 結論
+      description: 調べ終わったら書く
