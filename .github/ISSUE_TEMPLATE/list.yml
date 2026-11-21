@@ -1,5 +1,5 @@
 name: List
-description: 溜めて見返すリスト（欲しい物・積み本など）
+description: 溜めて見返す常駐リスト
 type: List
 projects: ["synmm/1"]
 body:
